@@ -5,7 +5,7 @@ resource "google_compute_network" "vpc_network" {
   mtu                     = 1460
 }
 
-resource "google_compute_network" "vpc_network" {
+resource "google_compute_network" "vpc_network-1" {
   project                 = "test123-436512"
   name                    = "vpc-network-1"
   auto_create_subnetworks = true
